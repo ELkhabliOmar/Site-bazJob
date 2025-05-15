@@ -263,7 +263,22 @@
 	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 	transition: transform 0.3s ease;
   }
-  
+  .app-card {
+  display: inline-block;
+ background: linear-gradient(
+    135deg,
+    #f7941e 0%,   /* orange clair */
+    #f5436b 50%,  /* rose vif */
+    #e31587 100%  /* fuchsia profond */
+);
+
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  height: auto; /* ou fixe si tu veux */
+  text-align: left;
+}
+
   .app-column img:hover {
 	transform: scale(1.05);
   }

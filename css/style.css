@@ -7806,7 +7806,7 @@ html.tablet .ui-to-top {
 	}
 }
 
-.rd-navbar-wrap, .rd-navbar,
+/* .rd-navbar-wrap, .rd-navbar,
 .rd-menu,
 .rd-navbar-nav,
 .rd-navbar-panel, .rd-navbar-static .rd-menu, .rd-navbar-fixed .rd-navbar-nav-wrap, .rd-navbar-fixed .rd-navbar-submenu, .rd-navbar-project {
@@ -7814,11 +7814,23 @@ html.tablet .ui-to-top {
  background: linear-gradient(
     135deg,
     #ccc 0%,   /* gris foncé */
-    #888 50%,  /* gris moyen */
-    #ccc 100%  /* gris clair */
-  ) !important;
+  /*   #888 50%,  */ /* gris moyen */
+  /*   #ccc 100%  */ /* gris clair */
+  /* ) !important; */
+/* } */ 
+ .rd-navbar-wrap,
+.rd-navbar,
+.rd-menu,
+.rd-navbar-nav,
+.rd-navbar-panel,
+.rd-navbar-static .rd-menu,
+.rd-navbar-fixed .rd-navbar-nav-wrap,
+.rd-navbar-fixed .rd-navbar-submenu,
+.rd-navbar-project {
+  transition: 0.35s all cubic-bezier(0.65, 0.05, 0.36, 1);
+  background-color: #a7a7a7  !important;
+  background-image: none !important;
 }
-
 .rd-navbar--no-transition, .rd-navbar--no-transition * {
 	transition: none !important;
 }

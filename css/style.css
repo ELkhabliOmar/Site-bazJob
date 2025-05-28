@@ -158,8 +158,15 @@
 
 .store-img {
   height: 60px;
+  max-width: 250px; /* ajuste selon ton design */
+  object-fit: contain;
   transition: transform 0.3s ease;
 }
+
+.store-img:hover {
+  transform: scale(1.05);
+}
+
 
 .store-img:hover {
   transform: scale(1.05);
